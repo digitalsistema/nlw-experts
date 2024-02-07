@@ -1,5 +1,97 @@
 const perguntas = [
-    {
+  {
+    Pergunta: "O que é cangaçologia?",
+    Respostas: [
+      "O estudo das técnicas de plantio de cana-de-açúcar",
+      "O estudo da cultura e história dos cangaceiros",
+      "O estudo da formação de cânions em rios brasileiros",
+    ],
+    correta: 1
+  },
+  {
+    Pergunta: "Quem foi o líder mais famoso do cangaço?",
+    Respostas: [
+      "Lampião",
+      "Maria Bonita",
+      "Corisco",
+    ],
+    correta: 0
+  },
+  {
+    Pergunta: "Qual era o principal objetivo dos cangaceiros?",
+    Respostas: [
+      "Lutar pela independência do Brasil",
+      "Proteger os agricultores das secas",
+      "Enfrentar o poder local e desafiar a ordem estabelecida",
+    ],
+    correta: 2
+  },
+  {
+    Pergunta: "Onde se localizava o principal foco do cangaço?",
+    Respostas: [
+      "Sul do Brasil",
+      "Sertão nordestino do Brasil",
+      "Região amazônica do Brasil",
+    ],
+    correta: 1
+  },
+  {
+    Pergunta: "Qual era o nome de batismo de Lampião?",
+    Respostas: [
+      "Virgulino Ferreira da Silva",
+      "José do Patrocínio",
+      "Antônio Conselheiro",
+    ],
+    correta: 0
+  },
+  {
+    Pergunta: "Qual foi o desfecho do cangaço?",
+    Respostas: [
+      "Os cangaceiros foram anistiados e integrados à sociedade",
+      "Todos os cangaceiros foram presos e executados",
+      "Os cangaceiros se dispersaram ou foram mortos",
+    ],
+    correta: 2
+  },
+  {
+    Pergunta: "Quem era Maria Bonita no contexto do cangaço?",
+    Respostas: [
+      "Uma líder feminista",
+      "A esposa de Lampião",
+      "Uma estrategista militar",
+    ],
+    correta: 1
+  },
+  {
+    Pergunta: "Qual era o principal armamento dos cangaceiros?",
+    Respostas: [
+      "Espingarda de ar comprimido",
+      "Fuzil AK-47",
+      "Garrucha e rifle Winchester",
+    ],
+    correta: 2
+  },
+  {
+    Pergunta: "Como eram chamados os seguidores de Lampião?",
+    Respostas: [
+      "Cangacistas",
+      "Volantes",
+      "Cabras",
+    ],
+    correta: 2
+  },
+  {
+    Pergunta: "Qual era a principal atividade econômica dos cangaceiros?",
+    Respostas: [
+      "Roubo de gado e assalto a fazendas",
+      "Agricultura de subsistência",
+      "Extração de ouro",
+    ],
+    correta: 0
+  }
+];
+
+{
       Pergunta: "Qual é a linguagem de programação que é amplamente utilizada para desenvolvimento web?",
       Respostas: [
         "Java",
