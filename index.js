@@ -90,7 +90,6 @@ const perguntas = [
     correta: 0
   }
 ];
-
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
