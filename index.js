@@ -1,4 +1,5 @@
 const perguntas = [
+  
   {
     Pergunta: "O que é cangaçologia?",
     Respostas: [
