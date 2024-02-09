@@ -1,4 +1,100 @@
 const perguntas = [
+  {
+    Pergunta: "Quem foi o primeiro imperador do Brasil?",
+    Respostas: [
+      "Dom Pedro I",
+      "Dom Pedro II",
+      "Dom João VI",
+    ],
+    correta: 0
+  },
+  {
+    Pergunta: "Qual foi o principal ciclo econômico do Brasil colonial?",
+    Respostas: [
+      "Ciclo do ouro",
+      "Ciclo da borracha",
+      "Ciclo do café",
+    ],
+    correta: 0
+  },
+  {
+    Pergunta: "Em que ano foi proclamada a independência do Brasil?",
+    Respostas: [
+      "1822",
+      "1808",
+      "1889",
+    ],
+    correta: 0
+  },
+  {
+    Pergunta: "Quem foi o líder da Revolta dos Malês?",
+    Respostas: [
+      "Zumbi dos Palmares",
+      "Tiradentes",
+      "Manuel Congo",
+    ],
+    correta: 2
+  },
+  {
+    Pergunta: "O que foi o movimento conhecido como 'Diretas Já'?",
+    Respostas: [
+      "Uma campanha pela abertura política no regime militar",
+      "Uma revolta popular contra a monarquia",
+      "Uma campanha pela independência do Brasil",
+    ],
+    correta: 0
+  },
+  {
+    Pergunta: "Quem liderou a Confederação do Equador?",
+    Respostas: [
+      "Luís Carlos Prestes",
+      "Frei Caneca",
+      "Antônio Conselheiro",
+    ],
+    correta: 1
+  },
+  {
+    Pergunta: "Qual foi o último país a abolir a escravidão nas Américas?",
+    Respostas: [
+      "Brasil",
+      "Estados Unidos",
+      "Cuba",
+    ],
+    correta: 0
+  },
+  {
+    Pergunta: "Qual foi o período do regime militar no Brasil?",
+    Respostas: [
+      "1930-1945",
+      "1964-1985",
+      "1889-1894",
+    ],
+    correta: 1
+  },
+  {
+    Pergunta: "Quem foi o presidente do Brasil durante a Proclamação da República?",
+    Respostas: [
+      "Deodoro da Fonseca",
+      "Getúlio Vargas",
+      "Juscelino Kubitschek",
+    ],
+    correta: 0
+  },
+  {
+    Pergunta: "O que foi o movimento conhecido como 'Cabanagem'?",
+    Respostas: [
+      "Uma revolta contra a coroa portuguesa",
+      "Uma guerra civil entre estados brasileiros",
+      "Uma revolta popular no Pará",
+    ],
+    correta: 2
+  }
+];
+ 
+
+
+
+/*const perguntas = [
   
   {
     Pergunta: "O que é cangaçologia?",
@@ -90,7 +186,7 @@ const perguntas = [
     ],
     correta: 0
   }
-];
+];*/
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
